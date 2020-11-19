@@ -1,4 +1,4 @@
-/* Este archivo debe estar colocado en la carpeta raíz del sitio.
+/*  Este archivo debe estar colocado en la carpeta raíz del sitio.
  * cualquier cambio en el contenido de este archivo hace que el service worker
  * se reinstale. Normalmente se cambia el número en el nombre del caché cuando
  * cambia el contenido de los archivos. Espera 11 minutos después de hacer los
