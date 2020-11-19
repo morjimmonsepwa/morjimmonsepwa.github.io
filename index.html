@@ -5,13 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PWA&FISICA</title>
     <script src="js/registraServiceWorker.js"></script>
-
     <!-- Ícono para la página web. Debe ponerse en la raíz de la página. -->
     <link rel="icon" sizes="32x32" href="favicon.ico">
-
     <!-- Color de la barra de navegación de Chrome en dispositivos móviles. -->
     <meta name="theme-color" content="#81d4f4">
-
     <!-- Configuración de la PWA: Chrome y Edge. -->
     <link rel="manifest" href="manifest.json">
 
@@ -23,9 +20,17 @@
     <link rel="apple-touch-icon" sizes="256x256" href="img/Icono256.png">
     <link rel="apple-touch-icon" sizes="1024x1024" href="img/Icono1024.png">
     <link rel="apple-touch-icon" sizes="2048x2048" href="img/Icono2048.png">
+
+     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
     
     <script type="module" src="cmp/mi-footer.js"></script>
     <link rel="stylesheet" href="css/estilos.css">
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
       <style>
         /* :root
          * Elemento raíz del documento. En este caso corresponde al elemento html.
@@ -271,13 +276,13 @@
         <p>Recuerda guiarte del ejemplo para saber resolver tus problemas sobre Velocidad-Tiempo-Distancia<output id="agent"></output></p>
         <campo-dinámico>
           <input type="text" id="numero1" required>
-          <label for="numero1">Velocidad</label>
+          <label for="numero1">Primer valor</label>
           <small> </small>
         </campo-dinámico>
         <campo-dinámico>
           <input type="text" id="numero2" required>
           <!-- <input id="email" type="email" autocomplete="off"> -->
-          <label for="numero2">Tiempo</label>
+          <label for="numero2">Segundo valor</label>
         </campo-dinámico>
         
         
@@ -293,14 +298,13 @@
    var multiplicar = parseInt(numero1) * parseInt(numero2);
 
    alert('El resultado es: '+multiplicar+' millas.');
-
   }
  </script> 
+
     <footer>
       <p>
         <mi-footer></mi-footer>
       </p>
     </footer>
-
   </body>
 </html>
