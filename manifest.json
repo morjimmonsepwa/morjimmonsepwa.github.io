@@ -1,0 +1,25 @@
+
+    "short_name": "morjimmonsepwa",
+    "name": "PWA&FISICA",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "theme_color": "#81d4f4",
+    "background_color": "#ff6d00",
+    "icons": [
+      {
+        "src": "img/Icono2048.png",
+        "sizes": "2048x2048",
+        "type": "image/png"
+      },
+      {
+        "src": "img/Icono1024.png",
+        "sizes": "1024x1024",
+        "type": "image/png"
+      },
+      {
+        "src": "img/Icono256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      }
+    ]
+  }
